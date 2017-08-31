@@ -1,0 +1,9 @@
+C:\Users\stuar\Documents\GitHub\sql-server-samples\samples\databases\wide-world-importers\wwi-ssdt\wwi-ssdt\bin\Debug\WideWorldImporters.dacpac
+C:\Users\stuar\Documents\GitHub\sql-server-samples\samples\databases\wide-world-importers\wwi-ssdt\wwi-ssdt\bin\Debug\wwi_ssdt.dll
+C:\Users\stuar\Documents\GitHub\sql-server-samples\samples\databases\wide-world-importers\wwi-ssdt\wwi-ssdt\bin\Debug\wwi_ssdt.pdb
+C:\Users\stuar\Documents\GitHub\sql-server-samples\samples\databases\wide-world-importers\wwi-ssdt\wwi-ssdt\obj\Debug\Model.xml
+C:\Users\stuar\Documents\GitHub\sql-server-samples\samples\databases\wide-world-importers\wwi-ssdt\wwi-ssdt\obj\Debug\refactor.xml
+C:\Users\stuar\Documents\GitHub\sql-server-samples\samples\databases\wide-world-importers\wwi-ssdt\wwi-ssdt\obj\Debug\postdeploy.sql
+C:\Users\stuar\Documents\GitHub\sql-server-samples\samples\databases\wide-world-importers\wwi-ssdt\wwi-ssdt\obj\Debug\predeploy.sql
+C:\Users\stuar\Documents\GitHub\sql-server-samples\samples\databases\wide-world-importers\wwi-ssdt\wwi-ssdt\obj\Debug\wwi_ssdt.dll
+C:\Users\stuar\Documents\GitHub\sql-server-samples\samples\databases\wide-world-importers\wwi-ssdt\wwi-ssdt\obj\Debug\wwi_ssdt.pdb

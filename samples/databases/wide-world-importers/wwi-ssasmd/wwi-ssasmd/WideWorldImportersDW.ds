@@ -6,8 +6,9 @@
   <ConnectionString>Data Source=.;Initial Catalog=WideWorldImportersDW;Integrated Security=True</ConnectionString>
   <ConnectionStringSecurity>Unchanged</ConnectionStringSecurity>
   <ImpersonationInfo>
-    <ImpersonationMode>ImpersonateCurrentUser</ImpersonationMode>
-    <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+    <ImpersonationMode>ImpersonateAccount</ImpersonationMode>
+    <Account>stuar</Account>
+    <ImpersonationInfoSecurity>PasswordRemoved</ImpersonationInfoSecurity>
   </ImpersonationInfo>
   <ManagedProvider>System.Data.SqlClient</ManagedProvider>
   <Timeout>PT0S</Timeout>
