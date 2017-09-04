@@ -12,8 +12,8 @@
   DTS:ObjectName="DailyETLMain"
   DTS:PackageType="5"
   DTS:ProtectionLevel="0"
-  DTS:VersionBuild="62"
-  DTS:VersionGUID="{00A1E197-21DE-4954-AAA0-E348461E172E}">
+  DTS:VersionBuild="63"
+  DTS:VersionGUID="{CAC88F3D-B64F-4739-8B17-C87DA0D0F37D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -10089,7 +10089,7 @@ WITH RESULT SETS
       <GraphLayout
         Capacity="256" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="291,42"
+          Size="238,42"
           Id="Package\Calculate ETL Cutoff Time backup"
           TopLeft="204.500000000001,149.5" />
         <NodeLayout
@@ -10243,7 +10243,7 @@ WITH RESULT SETS
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="False"
-          PanelSize="263,612"
+          PanelSize="291,612"
           Size="291,43"
           Id="Package\Load City Dimension"
           TopLeft="204.500000000001,371.3" />
@@ -10290,7 +10290,9 @@ WITH RESULT SETS
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10312,7 +10314,9 @@ WITH RESULT SETS
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10334,7 +10338,9 @@ WITH RESULT SETS
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10356,7 +10362,9 @@ WITH RESULT SETS
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10378,13 +10386,15 @@ WITH RESULT SETS
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="False"
-          PanelSize="290,613"
+          PanelSize="291,613"
           Size="291,43"
           Id="Package\Load Customer Dimension"
           TopLeft="204.500000000001,446.233333333333" />
@@ -10837,7 +10847,7 @@ WITH RESULT SETS
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="False"
-          PanelSize="272,613"
+          PanelSize="291,613"
           Size="291,43"
           Id="Package\Load Order Fact"
           TopLeft="204.500000000001,970.766666666666" />
@@ -11139,7 +11149,7 @@ WITH RESULT SETS
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="False"
-          PanelSize="288,613"
+          PanelSize="291,613"
           Size="291,43"
           Id="Package\Load Purchase Fact"
           TopLeft="204.500000000001,1045.7" />
@@ -11290,7 +11300,7 @@ WITH RESULT SETS
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="False"
-          PanelSize="265,613"
+          PanelSize="291,613"
           Size="291,43"
           Id="Package\Load Sale Fact"
           TopLeft="204.500000000001,1120.63333333333" />
@@ -11441,7 +11451,7 @@ WITH RESULT SETS
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="False"
-          PanelSize="282,613"
+          PanelSize="291,613"
           Size="291,43"
           Id="Package\Load Stock Holding Fact"
           TopLeft="204.500000000001,1195.56666666667" />
@@ -11743,7 +11753,7 @@ WITH RESULT SETS
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="False"
-          PanelSize="284,613"
+          PanelSize="291,613"
           Size="291,43"
           Id="Package\Load Supplier Dimension"
           TopLeft="204.500000000001,745.966666666666" />
@@ -12055,18 +12065,30 @@ WITH RESULT SETS
           TopLeft="204.500000000001,223.433333333333" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="350.000000000001,191.5">
+          TopLeft="323.500000000001,191.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,31.9333333333333"
+              EndConnector="26.5,31.933333333333"
               Start="0,0"
-              End="0,24.4333333333333">
+              End="26.5,24.433333333333">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,24.4333333333333" />
+                    End="0,11.9666666666665" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,11.9666666666665"
+                    Point2="0,15.9666666666665"
+                    Point3="4,15.9666666666665" />
+                  <mssgle:LineSegment
+                    End="22.5,15.9666666666665" />
+                  <mssgle:CubicBezierSegment
+                    Point1="22.5,15.9666666666665"
+                    Point2="26.5,15.9666666666665"
+                    Point3="26.5,19.9666666666665" />
+                  <mssgle:LineSegment
+                    End="26.5,24.433333333333" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>

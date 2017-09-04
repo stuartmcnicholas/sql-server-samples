@@ -2,13 +2,13 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>Daily ETL</Name>
-    <LastWriteTime>2017-08-31T07:05:56.2427953Z</LastWriteTime>
+    <LastWriteTime>2017-08-31T08:04:33.8349866Z</LastWriteTime>
     <LastKnownProtectionLevel>DontSaveSensitive</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>DailyETLMain.dtsx</Name>
-      <LastWriteTime>2017-08-31T07:05:56.2427953Z</LastWriteTime>
+      <LastWriteTime>2017-08-31T08:06:49.193516Z</LastWriteTime>
       <LastKnownProtectionLevel>DontSaveSensitive</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

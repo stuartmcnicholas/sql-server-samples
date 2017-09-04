@@ -10,8 +10,8 @@
   <DataSets />
   <Reports>
     <ProjectItem>
-      <Name>Sample Report 1.rdl</Name>
-      <FullPath>Sample Report 1.rdl</FullPath>
+      <Name>WWI Sales Analysis Report.rdl</Name>
+      <FullPath>WWI Sales Analysis Report.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>
